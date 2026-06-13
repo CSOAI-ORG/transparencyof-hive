@@ -1,0 +1,22 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "transparencyof",
+    "description": "Explainability \u2014 what your AI decided and why. The FinServ/Health ticket.",
+    "version": "0.1.0",
+    "provider": "CSOAI-ORG",
+    "interfaces": [
+      {
+        "type": "a2a",
+        "url": "https://transparencyof.ai"
+      }
+    ],
+    "capabilities": [
+      "explainability-report-mcp",
+      "ai-bom-mcp",
+      "watermarking-authenticity-mcp",
+      "a2a-mesh",
+      "memoria-commit"
+    ]
+  }
+}
