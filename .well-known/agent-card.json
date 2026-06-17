@@ -1,0 +1,35 @@
+{
+  "name": "transparencyof.ai",
+  "title": "Transparency of AI — Open Audit & Disclosure",
+  "description": "Mandatory transparency registers, algorithmic disclosure, and public audit trails for MEOK-certified AI systems.",
+  "cluster": "COMPLIANCE",
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "url": "https://transparencyof.ai/",
+  "agent": {
+    "protocol": "model-context-protocol",
+    "version": "1.0",
+    "mcp_endpoint": "https://mcp.transparencyof.ai/v1",
+    "capabilities": ["reasoning", "tool_use", "context_management", "multi_agent_coordination"],
+    "authentication": {
+      "scheme": "oauth2",
+      "token_url": "https://auth.sov3.meok.ai/oauth/token",
+      "authorization_url": "https://auth.sov3.meok.ai/oauth/authorize",
+      "scopes": ["agent:read", "agent:write", "mcp:invoke"]
+    },
+    "identity": {
+      "did": "did:meok:transparencyof.ai",
+      "verification_method": "did:meok:transparencyof.ai#keys-1"
+    }
+  },
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "MEOK Empire",
+    "url": "https://meok.ai/"
+  },
+  "clusterOf": {
+    "@type": "Organization",
+    "name": "COMPLIANCE",
+    "url": "https://transparencyof.ai/"
+  }
+}

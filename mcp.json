@@ -1,0 +1,14 @@
+{
+  "name": "transparencyof.ai",
+  "title": "Transparency of AI — Open Audit & Disclosure",
+  "description": "Mandatory transparency registers, algorithmic disclosure, and public audit trails for MEOK-certified AI systems.",
+  "cluster": "COMPLIANCE",
+  "servers": [
+        { "id": "disclosure-mcp.sov3.meok.ai", "url": "https://disclosure-mcp.sov3.meok.ai/", "protocol": "mcp-1.0" },
+    { "id": "audit-trail-mcp.sov3.meok.ai", "url": "https://audit-trail-mcp.sov3.meok.ai/", "protocol": "mcp-1.0" },
+    { "id": "transparency-register-mcp.sov3.meok.ai", "url": "https://transparency-register-mcp.sov3.meok.ai/", "protocol": "mcp-1.0" }
+  ],
+  "registrar": "https://mcp-registry.sov3.meok.ai/register",
+  "protocol": "https://openMCP.ai/protocol",
+  "$schema": "https://openMCP.ai/schemas/mcp-server-list.json"
+}
